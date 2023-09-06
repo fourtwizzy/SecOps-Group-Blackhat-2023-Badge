@@ -91,7 +91,7 @@ void printOut1(int c) {
 void loop() {
   Serial.println(" ");
   Serial.println("Entering Programming Mode");
-  for(int l = 0; l >= 0; l--){
+  for(int l = 255; l >= 0; l--){
     if(l == 187 || l == 185)
       {
         Serial.println("###Known Values###");
@@ -104,5 +104,4 @@ void loop() {
         delay(7000);
       }
   }
-
 }
